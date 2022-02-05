@@ -46,14 +46,14 @@
             class="mail outline icon"
           >
           </i>
-          Messages
+        <!--   Messages
         </router-link>
         <router-link
           to="/profile"
           class="item"
           id="profile-button"
           v-if="authState && authState.isAuthenticated"
-        >
+        > -->
         Profile
         </router-link>
         <router-link

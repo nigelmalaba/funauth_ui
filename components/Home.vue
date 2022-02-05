@@ -56,8 +56,10 @@
       </p>
     
       <ul>
-        <li>
-          FunAuth Challenge One
+        <li> 
+          <router-link to="/funauth"> FunAuth Challenge One </router-link >
+          <!--a href = "../../public/challenge-one_Step-1_customApplicationSignon.html"> FunAuth Challenge One </a -->
+      
         </li>
         <li>
           FunAuth Challenge Two

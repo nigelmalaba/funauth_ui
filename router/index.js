@@ -5,6 +5,13 @@ import HomeComponent from '@/components/Home'
 import LoginComponent from '@/components/Login'
 import ProfileComponent from '@/components/Profile'
 import MessagesComponent from '@/components/Messages'
+import FunauthComponent from '@/components/funauthOverview'
+import FunauthSectionOneComponent from '@/components/funauthChallengeOne_Step1'
+import FunauthSectionTwoComponent from '@/components/funauthChallengeOne_Step2'
+import FunauthSectionThreeComponent from '@/components/funauthChallengeOne_Step3'
+import FunauthSectionFourComponent from '@/components/funauthChallengeOne_Step4'
+import FunauthSectionFiveComponent from '@/components/funauthChallengeOne_Step5'
+import FunauthChallengeTwoComponent from '@/components/challenge-two_step-0_overview'
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
@@ -12,6 +19,38 @@ const router = createRouter({
     {
       path: '/',
       component: HomeComponent
+    },
+    {
+      path: '/funauth',
+      component:FunauthComponent
+    },
+    {
+      path: '/funauthSectionOne',
+      component: FunauthSectionOneComponent
+    },
+    {
+      path: '/funauthSectionTwo',
+      component: FunauthSectionTwoComponent
+    },
+    {
+      path: '/funauthSectionThree',
+      component: FunauthSectionThreeComponent
+    },
+    {
+      path: '/funauthSectionFour',
+      component: FunauthSectionFourComponent
+    },
+    {
+      path: '/funauthSectionFive',
+      component: FunauthSectionFiveComponent
+    },
+    {
+      path: '/funauthChallengeTwo',
+      component: FunauthChallengeTwoComponent
+    },
+    {
+      path: '/funauthSectionThree',
+      component: FunauthSectionOneComponent
     },
     {
       path: '/login',
